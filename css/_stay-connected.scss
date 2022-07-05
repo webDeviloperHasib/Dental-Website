@@ -1,0 +1,40 @@
+.stay_connected{
+    width: 100%;
+    padding:50px 100px;
+    text-align: center;
+    background: url('../images/stay\ connected/bg-blue 2.png');
+
+    .main_content_contact{
+        
+        h5{
+            font-size: 19px;
+            font-weight: 700;
+            color: #19D3AE;
+        }
+        h2{
+            font-size: 29px;
+            color: white;
+            margin-bottom: 25px;
+        }
+        input{
+            width: 430px;
+            height: 38px;
+            margin-bottom: 20px;
+            padding: 4px 10px;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+        }
+        textarea{
+            width: 430px;
+            padding: 8px 12px;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .button{
+            padding: 8px 22px;
+        }
+    }
+}

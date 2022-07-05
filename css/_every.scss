@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+.button{
+    padding: 13px 15px;
+                font-size: 17px;
+                font-weight: 600;
+                letter-spacing: .8px;
+                background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
+                border-radius: 8px;
+                color:#ffffff;
+                border: none;
+                cursor: pointer;
+}

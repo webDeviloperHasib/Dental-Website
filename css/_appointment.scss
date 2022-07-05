@@ -1,0 +1,47 @@
+.appointment_section{
+    width: 100%;
+    margin-top: 50px;
+    background:url('../images/appointment/bg-blue\ 1.png');
+    height: 385px;
+    margin-bottom: 30px;
+    padding:0 160px;
+    padding-left: 30px;
+    .main_appointment_content{
+        display: flex;
+        align-items: center;
+        padding-bottom: 0;
+        
+        .appoint_one{
+            img{
+                width: 606.84px;
+                height: 456px;
+                object-fit: contain;
+                margin-top: -70px;
+                padding-bottom: 0;
+                margin-bottom: 0;
+               
+            }
+        }
+        .appoint_two{
+            h5{
+                font-size: 20px;
+                color: #19D3AE;
+            }
+            h3{
+                font-size: 36px;
+                color: white;
+                margin-top: 12px;
+                margin-bottom: 18px;
+            }
+            p{
+                color: white;
+                margin-bottom: 34px;
+                font-size: 15px;
+                word-spacing: 2.5px;
+            }
+            button{
+                @extend .button;
+            }
+        }
+    }
+}

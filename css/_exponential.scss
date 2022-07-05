@@ -1,0 +1,32 @@
+.exponential{
+    padding: 0 140px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+
+    .main_exponential{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 50px;
+
+
+        .expo_div_one{
+
+            img{
+                width: 458px;
+                height: 436px;
+            }
+        }
+        .expo_div_two{
+            margin-top: 40px;
+            h2{
+                margin-bottom: 20px;
+                font-size: 45px;
+            }
+
+            button{
+                @extend .button;
+                margin-top: 35px;
+            }
+        }
+    }
+}
